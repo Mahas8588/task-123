@@ -17,6 +17,19 @@
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
+  
+ <distributionManagement>
+    <repository>
+      <id>Sre-task</id>
+      http://18.191.125.47:8081/repository/Sre-task/</url>
+    <layout>default</layout>
+    <releases>
+      <enabled>true</enabled>
+      <updatePolicy>always</updatePolicy>
+      <checksumPolicy>warn</checksumPolicy>
+    </releases>
+    </repository>
+ </distributionManagement>
 
   <dependencies>
     <dependency>
